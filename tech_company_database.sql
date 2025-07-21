@@ -125,3 +125,8 @@ GROUP BY C.CustomerID, C.FirstName, C.Surname
 HAVING SUM(O.TotalAmount) > 5000
 ORDER BY TotalSpent DESC;
 
+
+SELECT ProductName
+FROM Products
+ORDER BY ProductID DESC;
+
